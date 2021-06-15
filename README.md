@@ -1,6 +1,6 @@
-# public-web
+# StandardAaron.dev
 
-This is a repo for my personal website (standardaaron.dev).
+This is a repo for my personal website.
 
 Currently it's just an incomplete shell, but the eventual goal is to have links and info about my interests and adventures in tech.
 

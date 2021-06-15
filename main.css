@@ -1,0 +1,74 @@
+/* core styles */
+
+body {
+    background: #3E1C43;
+    font-family: "DejaVu Sans Mono", "Noto Sans Mono", "Everson Mono", FreeMono, Menlo, Terminal, monospace;
+    color: #F0F0F0;
+}
+
+div#popup {
+    background: #f0f0f0;
+    color: #3E1C43;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding: 5px;
+    border-style: double;
+    border-width: 8px;
+    border-color: #3E1C43;
+}
+
+/* intro styles */
+
+#logo-container {
+    display: flex;
+    justify-content:space-around;
+}
+
+pre#logo {
+    font-family: monospace;
+    padding: 5px;  
+}
+
+pre#soon {
+    background: #F0F0F0;
+    color: #3E1C43;
+}
+/* main styles */
+
+p#out-text {
+    background: #F0F0F0;
+    color: #3E1C43;
+}
+
+input {
+    background: #3E1C43;
+    color: #f0f0f0;
+    font-family: "DejaVu Sans Mono", "Noto Sans Mono", "Everson Mono", FreeMono, Me
+nlo, Terminal, monospace;
+    border: none;
+    border-style: hidden;
+    outline: none;
+}
+
+.hf {
+    background: #F0F0F0;
+    color: #3E1C43;
+    font-weight: bold;
+    height: 20px;
+    width: 98%;
+    margin: 0;
+}
+
+div#title {
+    max-width: max-content;
+    width: max-content;
+    background: #3E1C43;
+    color: #F0F0F0;
+    height: 20px;
+}
+
+div#body-block {
+    height: 98%;
+}

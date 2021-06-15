@@ -1,8 +1,16 @@
 /* core styles */
 
+@font-face {
+    font-family: vt323;
+    src: url("/fonts/VT323-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: fira;
+    src: url("/fonts/FiraCode-Regular.ttf") format("truetype");
+}
 body {
     background: #3E1C43;
-    font-family: "DejaVu Sans Mono", "Noto Sans Mono", "Everson Mono", FreeMono, Menlo, Terminal, monospace;
+    font-family: vt323;
     color: #F0F0F0;
 }
 
@@ -26,12 +34,14 @@ div#popup {
     justify-content:space-around;
 }
 
-pre#logo {
-    font-family: monospace;
+pre {
+    font-family: fira;
+    white-space: pre;
     padding: 5px;  
 }
 
 pre#soon {
+    font-family: vt323;
     background: #F0F0F0;
     color: #3E1C43;
 }
@@ -45,8 +55,6 @@ p#out-text {
 input {
     background: #3E1C43;
     color: #f0f0f0;
-    font-family: "DejaVu Sans Mono", "Noto Sans Mono", "Everson Mono", FreeMono, Me
-nlo, Terminal, monospace;
     border: none;
     border-style: hidden;
     outline: none;
